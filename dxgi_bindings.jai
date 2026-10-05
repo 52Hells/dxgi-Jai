@@ -1812,7 +1812,7 @@ DXGI_ADAPTER_FLAG3 :: enum_flags u32 {
 }
 
 DXGI_ADAPTER_DESC3 :: struct {
-    Description:                   [128] s16;
+    Description:                   [128] u16;
     VendorId:                      u32;
     DeviceId:                      u32;
     SubSysId:                      u32;
